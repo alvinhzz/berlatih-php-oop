@@ -27,13 +27,13 @@ echo "<br>";
 echo "<H3>Release 1</H3>";
 
 $sungokong = new Ape("kera sakti");
-echo "Name : " . $sungokong->name . "<br>";
+echo "Name : " . $sungokong->getName() . "<br>";
 echo "Sound : " . $sungokong->Yell();
 
 echo "<br><br>";
 
 $kodok = new Frog("buduk");
-echo "Name : " . $kodok->name . "<br>";
+echo "Name : " . $kodok->getName() . "<br>";
 echo "Jump : " . $kodok->Jump();
 
 // end of release 1
